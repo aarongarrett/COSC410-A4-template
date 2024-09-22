@@ -1,3 +1,5 @@
+@ConsoleTests
+
 Feature: Tic Tac Toe should be playable in the console.
 
 

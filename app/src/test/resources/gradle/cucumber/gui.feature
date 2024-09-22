@@ -1,3 +1,5 @@
+@GuiTests
+
 Feature: Tic Tac Toe should be playable in the GUI.
 
 

@@ -28,6 +28,7 @@ public class GuiStepDefinitions {
     private static int testNumber = 0;
     private static boolean dunit = false;
     private static File SCREENSHOT_DIRECTORY = new File(
+        "app" + File.separator + 
         "build" + File.separator + 
         "reports" + File.separator + 
         "cucumber" + File.separator + 
