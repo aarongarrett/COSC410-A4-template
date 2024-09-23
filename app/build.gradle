@@ -69,6 +69,18 @@ jacocoTestReport {
     }
 }
 
+jacocoTestCoverageVerification.dependsOn check
+jacocoTestCoverageVerification {
+    violationRules {
+        rule {
+            limit {
+                minimum = 0.8
+            }
+            failOnViolation true
+        }
+    }
+}
+
 javadoc {
     options.with {
         links 'https://docs.oracle.com/javase/17/docs/api/'
